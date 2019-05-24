@@ -1,0 +1,6 @@
+<div *ngFor="let po of posts">
+  <div> {{po.id}}</div>
+  <div> {{po.title}}</div>
+  <div> {{po.text}}</div>
+  <div><a routerLink="/blog/post/{{po.id}}"><img src="{{po.image}}"></a>></div>
+</div>
